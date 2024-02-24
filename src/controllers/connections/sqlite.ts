@@ -30,7 +30,7 @@ function initialize(db: Database) {
             staff_pass_id VARCHAR,
             team_name VARCHAR,
             created_at BIGINT,
-            PRIMARY KEY (staff_pass_id, team_name)
+            PRIMARY KEY (staff_pass_id, team_name, created_at)
         );
         CREATE TABLE IF NOT EXISTS Redemptions (
             team_name VARCHAR, 
