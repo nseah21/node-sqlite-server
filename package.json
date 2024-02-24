@@ -1,0 +1,21 @@
+{
+  "name": "sqlite-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3"
+  }
+}
